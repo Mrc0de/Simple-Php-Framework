@@ -1,4 +1,9 @@
 # Simple-Php-Framework
+- Moved Reasoning to Bottom
+- Cloned Repo To Start Work
+- First Commit From IDE
+
+# Why I Did This...
 This was an experiment with PHP OOP.<br/>
 I heard someone say 'probably use OOP with PHP and make a nice website'.<br/>
 I wasnt doing that yet.<br/>
