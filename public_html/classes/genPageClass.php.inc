@@ -73,13 +73,13 @@ class genPageClass {
         public function runQueryPgsql($pgQuery) {
             //This one uses Postgres instead of MySql
             //Webmaster can choose which to use when drawing, saving, etc...
-            if ( is_file ('inc/dbconf.inc.php') ) { require('inc/dbconf.inc.php'); }
+            if ( is_file ('inc/dbconf.php.inc') ) { require('inc/dbconf.php.inc'); }
             
             
         }
         
 	public function runQuery($query) {
-	    if ( is_file ('inc/dbconf.inc.php') ) { require('inc/dbconf.inc.php'); }
+	    if ( is_file ('inc/dbconf.php.inc') ) { require('inc/dbconf.php.inc'); }
             try {
                 $dbcon = mysql_connect($db_host,$db_user,$db_pass);
                 mysql_select_db($db_name,$dbcon);
