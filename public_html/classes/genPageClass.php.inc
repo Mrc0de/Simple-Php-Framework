@@ -39,17 +39,18 @@ class genPageClass {
                 //draw header inside body
                 echo '<div id=' . $headerId . '>';
                     //header guts                    
-                    echo '<img id="headerLogo" src="imgs/frontend/logo.png" style="float:left;"/>';
+                    //echo '<img id="headerLogo" src="imgs/frontend/logo.png" style="float:left;"/>';
+                    echo '<h2> Geekprojex.com Code Example </h2>';
                     $this->newDiv("clearleft;");			
                 $this->closeDiv();
                 
                 echo '<div id=' . $contentId . '>';
                     //Content Guts
-                
+                    echo 'The code for this site can be found at https://github.com/Mrc0de/Simple-Php-Framework</br>';
                 $this->closeDiv();
                 echo '<div id=' . $footerId . '>';
                     //Footer Guts
-                
+                    echo 'Pretty Frikkin Easy...';
                 $this->closeDiv();
                 $this->newDiv("clearboth;");
             $this->endPage();
