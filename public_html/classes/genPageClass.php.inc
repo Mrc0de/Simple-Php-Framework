@@ -3,11 +3,11 @@
 //By MrC0de
 
 class genPageClass {
-	//Variables 
+	//Variables (defaults usually get overridden after creation, left this as a guide)
 	public $config = array( 
 		"pageTitle" => "GeekProjex.com",
-		"baseCSS" => "genPageBase.css",
-		"menuCSS" => "navMenu.css",
+		"baseCSS" => "inc/genPageBase.css",
+		"menuCSS" => "inc/navMenu.css",
 		"rootURL" => "http://www.geekprojex.com/",
 	);
 	public $lastInsertId = 0;
