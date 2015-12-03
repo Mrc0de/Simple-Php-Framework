@@ -17,8 +17,8 @@
     $thisPage = new genPageClass();
     
     //Setup the page (Change these freely, each page or use config file) (TODO: make config file stuff)
-    $thisPage->config['baseCSS'] = 'genPageBase.css';
-    $thisPage->config['menuCSS'] = 'navMenu.css';
+    $thisPage->config['baseCSS'] = 'inc/genPageBase.css';
+    $thisPage->config['menuCSS'] = 'inc/navMenu.css';
     $thisPage->config['rootURL'] = 'http://www.geekprojex.com/';
     $thisPage->config['pageTitle'] = 'GeekProjex.com';
     //Database config is stored in inc/dbconf.php.inc

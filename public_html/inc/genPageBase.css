@@ -1,0 +1,40 @@
+@media only screen and (min-width : 1100px) {
+    /*PC Screens Normal Res and Higher*/
+    html { font-size:16px; }
+    body { font-size:62.5%; margin: 0 auto; padding:0px; } /*1em will equal 10px*/
+    div { font-size:1.0em; } /*Divs have font of 10 px(PC)*/
+
+    #defBodyId { border: none;background-color:#888;width:100%; } 
+    #defHeaderId img { height:62px; width:62px; }
+    #defHeaderId { 
+        min-height:62px;
+        margin:0 auto; 
+        text-align:center; 
+        width:100%;
+        border-bottom:thin solid green;
+        background-color:transparent;
+        background-image:url('headerBg.png');
+        background-repeat:no-repeat;
+        background-size:100% 62px;
+    }
+    #defContentId { 
+        margin: 0 auto; 
+        border:none;
+        width:100%;
+        min-height:700px;
+        background-color:white;
+        border-left:none;
+        border-bottom:none;
+        text-align:center;
+    }
+    #defFooterId { 
+        margin: 0 auto; 
+        border:none;
+        width:100%;
+        min-height:16px;
+        background-color:#4D90FE;
+        text-align:center;
+        position:fixed;
+        bottom:0;
+    }	
+}

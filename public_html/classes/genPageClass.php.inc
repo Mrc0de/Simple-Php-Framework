@@ -6,7 +6,7 @@ class genPageClass {
 	//Variables 
 	public $config = array( 
 		"pageTitle" => "GeekProjex.com",
-		"baseCSS" => "base.css",
+		"baseCSS" => "genPageBase.css",
 		"menuCSS" => "navMenu.css",
 		"rootURL" => "http://www.geekprojex.com/",
 	);
@@ -51,6 +51,7 @@ class genPageClass {
                     //Footer Guts
                 
                 $this->closeDiv();
+                $this->newDiv("clearboth;");
             $this->endPage();
             //End Of Draw For Landing Page
             //Now send the user somewhere else, such as home.php (used in this example)
